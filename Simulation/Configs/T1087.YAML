@@ -1,0 +1,32 @@
+name: T1087
+count: 2
+defaultoutputfile: T1087.txt
+description: Account Discovery - Domain Account
+options:
+  attack1:
+    Command1:
+      type: CLI
+      write: net user /domain 
+      description: enumerate domain users
+      outfile: default
+    Command2:
+      type: CLI
+      write: net group /domain
+      description: enumerate domain groups
+      outfile: default
+  attack2:
+    Command1:
+      type: PS
+      write: net user /domain
+      description: enumerate domain users
+      outfile: default
+    Command2:
+      type: PS
+      write: get-localgroupmember -group Users
+      description: enumerate local users
+      outfile: default
+    Command3:
+      type: PS
+      write: whoami
+      description: Check currently logged user
+      outfile: default

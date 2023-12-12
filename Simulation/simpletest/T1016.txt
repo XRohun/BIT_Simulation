@@ -1,0 +1,127 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : LAPTOP-V4RT0SBJ
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Mixed
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : ynet.sk
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : ynet.sk
+   Description . . . . . . . . . . . : Realtek PCIe GBE Family Controller
+   Physical Address. . . . . . . . . : 54-AB-3A-2C-4D-F4
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::8b98:1e67:a1a4:24c9%6(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 147.175.191.138(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.192
+   Lease Obtained. . . . . . . . . . : pondelok, 20. novembra 2023 14:17:31
+   Lease Expires . . . . . . . . . . : utorok, 21. novembra 2023 23:14:47
+   Default Gateway . . . . . . . . . : 147.175.191.129
+   DHCP Server . . . . . . . . . . . : 147.175.191.129
+   DHCPv6 IAID . . . . . . . . . . . : 122989370
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-28-30-3C-95-A8-A7-95-01-BB-1F
+   DNS Servers . . . . . . . . . . . : 147.175.189.53
+                                       147.175.222.53
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter LoopBack1:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft KM-TEST Loopback Adapter
+   Physical Address. . . . . . . . . : 02-00-4C-4F-4F-50
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::90b7:a26c:d46c:57ae%11(Preferred) 
+   Autoconfiguration IPv4 Address. . : 169.254.102.113(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 1073872972
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-28-30-3C-95-A8-A7-95-01-BB-1F
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter LoopBack2:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft KM-TEST Loopback Adapter #2
+   Physical Address. . . . . . . . . : 02-00-4C-4F-4F-50
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::48a3:bcc8:ca8d:278e%13(Preferred) 
+   Autoconfiguration IPv4 Address. . : 169.254.73.135(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 1174536268
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-28-30-3C-95-A8-A7-95-01-BB-1F
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : AA-A7-95-01-BB-1F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 13:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : BA-A7-95-01-BB-1F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Fortinet Virtual Ethernet Adapter (NDIS 6.30)
+   Physical Address. . . . . . . . . : 00-09-0F-FE-00-01
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Qualcomm Atheros QCA61x4A Wireless Network Adapter
+   Physical Address. . . . . . . . . : A8-A7-95-01-BB-1F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : A8-A7-95-01-BB-20
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+Computer name                        \\LAPTOP-V4RT0SBJ
+Full Computer name                   LAPTOP-V4RT0SBJ
+User name                            marian.rohun@gmail.com
+
+Workstation active on                
+	NetBT_Tcpip_{5341B4CD-E69C-4AC7-86E3-5F7A9D785591} (02004C4F4F50)
+
+Software version                     Windows 10 Home
+
+Workstation domain                   WORKGROUP
+Logon domain                         MicrosoftAccount
+
+COM Open Timeout (sec)               0
+COM Send Count (byte)                16
+COM Send Timeout (msec)              250
+The command completed successfully.
+

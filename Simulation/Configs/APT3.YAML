@@ -1,0 +1,67 @@
+title: APT3 attack simulation - data obtaining
+technique_count: 9
+sequenced: true
+techniques:
+    technique1:
+      description: "System Network Configuration Discovery"
+      name: T1016
+      path: Configs/T1016.YAML
+      run: true
+      option: 1
+      sequence_time_before: 1
+    technique2:
+      description: "System Network Connections Discovery"
+      name: T1049
+      path: Configs/T1049.YAML
+      option: 1
+      run: true
+      sequence_time_before: 1
+    technique3:
+      description: "Process Discovery"
+      name: T1057
+      path: Configs/T1057.YAML
+      option: 4
+      run: true
+      sequence_time_before: 1
+    technique4:
+      description: "System Information Discovery"
+      name: T1082
+      path: Configs/T1082.YAML
+      option: 1
+      run: true
+      sequence_time_before: 1
+    technique5:
+      description: "File and Directory Discovery"
+      name: T1083
+      path: Configs/T1083.YAML
+      option: 2
+      run: true
+      sequence_time_before: 1
+    technique6:
+      description: "Account Discovery - Domain Account"
+      name: T1087
+      path: Configs/T1087.YAML
+      option: 2
+      run: true
+      sequence_time_before: 1
+    technique7:
+      description: "Create Account - Domain Account"
+      name: T1136-002
+      path: Configs/T1136-002.YAML
+      option: 1
+      run: true
+      sequence_time_before: 1
+    technique8:
+      description: "System Owner/User Discovery"
+      name: T1033
+      path: Configs/T1033.YAML
+      option: 2
+      run: true
+      sequence_time_before: 1
+    technique9:
+      description: "Screen Capture"
+      name: T1113
+      path: Configs/T1113.YAML
+      option: 1
+      run: true
+      sequence_time_before: 1

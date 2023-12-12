@@ -1,0 +1,8 @@
+c:\folder\my file.txt
+c:\$sysreset\logs\diagerr.xml
+c:\$sysreset\appxlogs\restoredownlevelalluserstore.log
+Marian
+LAPTOP-V4RT0SBJ
+147.175.191.138
+c:\apache\logs\error_log
+

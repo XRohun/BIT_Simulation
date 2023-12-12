@@ -1,0 +1,43 @@
+name: T1033
+count: 2
+defaultoutputfile: T1033.txt
+description: System Owner/User Discovery
+options:
+  attack1:
+    Command1:
+      type: CLI
+      write: cmd.exe /C whoami
+      description: Display the username of the currently logged-in user
+      outfile: default
+    Command2:
+      type: CLI
+      write: wmic useraccount get /ALL
+      description: Retrieve detailed information about all user accounts.
+      outfile: default
+    Command3:
+      type: CLI
+      write: quser /SERVER:"#{computer_name}"
+      description: Display information about active user sessions on a specific remote server
+      outfile: default
+    Command4:
+      type: CLI
+      write: quser
+      description: Display information about active user sessions
+      outfile: default
+    Command5:
+      type: CLI
+      write: qwinsta.exe /server:#{Hostname}
+      description: Displays information about active user sessions on a specific remote server
+      outfile: default     
+  attack2:
+    Command1:
+      type: PS
+      write: $env:USERNAME
+      description: Display the username of the currently logged-in user
+      outfile: default
+    Command2:
+      type: PS
+      write: $env:COMPUTERNAME
+      description: Display the Hostname
+      outfile: default
+  

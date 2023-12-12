@@ -1,0 +1,162 @@
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : ynet.sk
+   Link-local IPv6 Address . . . . . : fe80::8b98:1e67:a1a4:24c9%6
+   IPv4 Address. . . . . . . . . . . : 147.175.191.138
+   Subnet Mask . . . . . . . . . . . : 255.255.255.192
+   Default Gateway . . . . . . . . . : 147.175.191.129
+
+Ethernet adapter LoopBack1:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::90b7:a26c:d46c:57ae%11
+   Autoconfiguration IPv4 Address. . : 169.254.102.113
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . : 
+
+Ethernet adapter LoopBack2:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::48a3:bcc8:ca8d:278e%13
+   Autoconfiguration IPv4 Address. . : 169.254.73.135
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . : 
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Wireless LAN adapter Local Area Connection* 13:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Wireless LAN adapter Wi-Fi:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Admin State    State          Type             Interface Name
+-------------------------------------------------------------------------
+Disabled       Disconnected   Dedicated        VirtualBox Host-Only Network
+Disabled       Disconnected   Dedicated        VirtualBox Host-Only Network #2
+Enabled        Connected      Dedicated        LoopBack1
+Enabled        Connected      Dedicated        LoopBack2
+Enabled        Disconnected   Dedicated        Ethernet 2
+Disabled       Disconnected   Dedicated        Ethernet 3
+Enabled        Disconnected   Dedicated        Wi-Fi
+Enabled        Connected      Dedicated        Ethernet
+
+
+Interface: 147.175.191.138 --- 0x6
+  Internet Address      Physical Address      Type
+  147.175.191.129       a4-93-4c-23-b0-3f     dynamic   
+  147.175.191.152       b0-6e-bf-4d-20-4d     dynamic   
+  147.175.191.174       00-e0-b8-2f-40-ee     dynamic   
+  147.175.191.191       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.2             01-00-5e-00-00-02     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 169.254.102.113 --- 0xb
+  Internet Address      Physical Address      Type
+  169.254.255.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.2             01-00-5e-00-00-02     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 169.254.73.135 --- 0xd
+  Internet Address      Physical Address      Type
+  169.254.255.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.2             01-00-5e-00-00-02     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+    
+LoopBack1:
+Node IpAddress: [169.254.102.113] Scope Id: []
+
+                NetBIOS Local Name Table
+
+       Name               Type         Status
+    ---------------------------------------------
+    LAPTOP-V4RT0SBJ<20>  UNIQUE      Registered 
+    LAPTOP-V4RT0SBJ<00>  UNIQUE      Registered 
+    WORKGROUP      <00>  GROUP       Registered 
+    
+LoopBack2:
+Node IpAddress: [169.254.73.135] Scope Id: []
+
+                NetBIOS Local Name Table
+
+       Name               Type         Status
+    ---------------------------------------------
+    LAPTOP-V4RT0SBJ<20>  UNIQUE      Registered 
+    LAPTOP-V4RT0SBJ<00>  UNIQUE      Registered 
+    WORKGROUP      <00>  GROUP       Registered 
+    
+Ethernet 2:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+    
+Ethernet:
+Node IpAddress: [147.175.191.138] Scope Id: []
+
+                NetBIOS Local Name Table
+
+       Name               Type         Status
+    ---------------------------------------------
+    LAPTOP-V4RT0SBJ<20>  UNIQUE      Registered 
+    LAPTOP-V4RT0SBJ<00>  UNIQUE      Registered 
+    WORKGROUP      <00>  GROUP       Registered 
+    
+Wi-Fi:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+    
+Local Area Connection* 2:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+    
+Local Area Connection* 13:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+    
+Bluetooth Network Connection:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+The following running services can be controlled:
+
+   Server
+   Workstation
+
+The command completed successfully.
+

@@ -1,0 +1,102 @@
+
+Host Name:                 LAPTOP-V4RT0SBJ
+OS Name:                   Microsoft Windows 10 Home
+OS Version:                10.0.19045 N/A Build 19045
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Microsoft
+Registered Organization:   Microsoft
+Product ID:                00325-95888-69470-AAOEM
+Original Install Date:     30.03.2021, 2:36:04
+System Boot Time:          19.05.2023, 20:43:27
+System Manufacturer:       Acer
+System Model:              Aspire V5-591G
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 94 Stepping 3 GenuineIntel ~2601 Mhz
+BIOS Version:              Insyde Corp. V1.15, 19.10.2017
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             sk;slovenŸina
+Input Locale:              sk;slovenŸina
+Time Zone:                 (UTC+01:00) Belehrad, Bratislava, Budapeçœ, •ub–ana, Praha
+Total Physical Memory:     16ÿ242 MB
+Available Physical Memory: 7ÿ049 MB
+Virtual Memory: Max Size:  21ÿ786 MB
+Virtual Memory: Available: 9ÿ992 MB
+Virtual Memory: In Use:    11ÿ794 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\LAPTOP-V4RT0SBJ
+Hotfix(s):                 22 Hotfix(s) Installed.
+                           [01]: KB5025183
+                           [02]: KB4562830
+                           [03]: KB4577586
+                           [04]: KB4580325
+                           [05]: KB5000736
+                           [06]: KB5003791
+                           [07]: KB5012170
+                           [08]: KB5015684
+                           [09]: KB5026361
+                           [10]: KB5006753
+                           [11]: KB5007273
+                           [12]: KB5011352
+                           [13]: KB5011651
+                           [14]: KB5014032
+                           [15]: KB5014035
+                           [16]: KB5015895
+                           [17]: KB5016705
+                           [18]: KB5018506
+                           [19]: KB5020372
+                           [20]: KB5023794
+                           [21]: KB5025315
+                           [22]: KB5005699
+Network Card(s):           9 NIC(s) Installed.
+                           [01]: VirtualBox Host-Only Ethernet Adapter
+                                 Connection Name: VirtualBox Host-Only Network
+                                 Status:          Hardware not present
+                           [02]: Realtek PCIe GBE Family Controller
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     147.175.191.129
+                                 IP address(es)
+                                 [01]: 147.175.191.138
+                                 [02]: fe80::8b98:1e67:a1a4:24c9
+                           [03]: Qualcomm Atheros QCA61x4A Wireless Network Adapter
+                                 Connection Name: Wi-Fi
+                                 Status:          Media disconnected
+                           [04]: VirtualBox Host-Only Ethernet Adapter
+                                 Connection Name: VirtualBox Host-Only Network #2
+                                 Status:          Hardware not present
+                           [05]: Microsoft KM-TEST Loopback Adapter
+                                 Connection Name: LoopBack1
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     255.255.255.255
+                                 IP address(es)
+                                 [01]: 169.254.102.113
+                                 [02]: fe80::90b7:a26c:d46c:57ae
+                           [06]: Microsoft KM-TEST Loopback Adapter
+                                 Connection Name: LoopBack2
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     255.255.255.255
+                                 IP address(es)
+                                 [01]: 169.254.73.135
+                                 [02]: fe80::48a3:bcc8:ca8d:278e
+                           [07]: Fortinet Virtual Ethernet Adapter (NDIS 6.30)
+                                 Connection Name: Ethernet 2
+                                 Status:          Media disconnected
+                           [08]: Fortinet SSL VPN Virtual Ethernet Adapter
+                                 Connection Name: Ethernet 3
+                                 Status:          Hardware not present
+                           [09]: Bluetooth Device (Personal Area Network)
+                                 Connection Name: Bluetooth Network Connection
+                                 Status:          Media disconnected
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Disk\Enum
+    0    REG_SZ    SCSI\Disk&Ven_LITEON&Prod_CV1-8B256\4&32f1aa9b&0&000000
+    Count    REG_DWORD    0x1
+    NextInstance    REG_DWORD    0x1
+

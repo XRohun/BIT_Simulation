@@ -1,0 +1,52 @@
+name: T1082
+count: 7
+defaultoutputfile: T1082.txt
+description: System Information Discovery
+options:
+  attack1:
+    Command1:
+      type: CLI
+      write: systeminfo
+      description: list system information
+      outfile: default
+    Command2:
+      type: CLI
+      write: reg query HKLM\SYSTEM\CurrentControlSet\Services\Disk\Enum
+      description: list disk information
+      outfile: default
+  attack2:
+    Command1:
+      type: CLI
+      write: hostname
+      description: list hostname
+      outfile: default
+  attack3:
+    Command1:
+      type: CLI
+      write: net config workstation
+      description: list workstation information
+      outfile: default
+  attack4:
+    Command1:
+      type: CLI
+      write: REG QUERY HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography /v MachineGuid
+      description: list machine GUID
+      outfile: default
+  attack5:
+    Command1:
+      type: CLI
+      write: set
+      description: list environment variables
+      outfile: default
+  attack6:
+    Command1:
+      type: CLI
+      write: ver
+      description: list OS version
+      outfile: default
+  attack7:
+    Command1:
+      type: CLI
+      write: driverquery
+      description: list drivers
+      outfile: default

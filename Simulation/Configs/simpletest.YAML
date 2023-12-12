@@ -1,0 +1,17 @@
+title: Testing simulator
+technique_count: 2
+sequenced: true
+techniques:
+    technique1:
+      description: "System Network Configuration Discovery"
+      name: T1016
+      path: Configs/T1016.YAML
+      run: true
+      option: 3
+    technique2:
+      description: "File and Directory Discovery"
+      name: T1083
+      path: Configs/T1083.YAML
+      run: true
+      option: 1
+

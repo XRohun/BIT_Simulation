@@ -1,0 +1,21 @@
+
+User accounts for \\LAPTOP-V4RT0SBJ
+
+-------------------------------------------------------------------------------
+Administrator            DefaultAccount           Guest                    
+Marian                   T1136.002_Admin          test123                  
+WDAGUtilityAccount       
+The command completed successfully.
+
+Alias name     administrators
+Comment        Administrators have complete and unrestricted access to the computer/domain
+
+Members
+
+-------------------------------------------------------------------------------
+Administrator
+Marian
+T1136.002_Admin
+test123
+The command completed successfully.
+

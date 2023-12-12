@@ -1,0 +1,48 @@
+name: T1057
+count: 7
+defaultoutputfile: T1057.txt
+description: Process Discovery
+options:
+  attack1:
+    Command1:
+      type: CLI
+      write: tasklist
+      description: list running processes
+      outfile: default
+  attack2:
+    Command1:
+      type: PS
+      write: Get-Process
+      description: list running processes
+      outfile: default
+  attack3:
+    command1:
+      type: CLI
+      write: tasklist /svc
+      description: list running processes and services
+      outfile: default
+  attack4:
+    command1:
+      type: CLI
+      write: tasklist /m
+      description: list running processes and dlls
+      outfile: default
+  attack5:
+    command1:
+      type: PS
+      write: wmic process get /format:list
+      description: list running processes and services
+      outfile: default
+  attack6:
+    command1:
+      type: PS
+      write: Get-Process | Select-Object -Property *
+      description: list running processes and dlls
+      outfile: default
+  attack7:
+    command1:
+      type: PS
+      write: tasklist | findstr lsass.exe
+      description: check if lsass.exe is running
+      outfile: default
+  

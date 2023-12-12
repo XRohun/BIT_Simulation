@@ -1,0 +1,38 @@
+name: T1049
+count: 2
+defaultoutputfile: T1049.txt
+description: System Network Connections Discovery
+options:
+  attack1:
+    Command1:
+      type: CLI
+      write: netstat -r
+      description: list routing table
+      outfile: default
+    Command2:
+      type: CLI
+      write: net use
+      description: 
+      outfile: default
+    Command3:
+      type: CLI
+      write: net sessions
+      description: 
+      outfile: default
+    Command4:
+      type: CLI
+      write: netstat -es
+      description: list network statistics
+      outfile: default
+    Command5:
+      type: CLI
+      write: netstat -nao
+      description: list all connections with PIDs
+      outfile: default
+  attack2:
+    Command1:
+      type: PS
+      write: Get-NetTCPConnection
+      description: list all TCP connections
+      outfile: default
+  

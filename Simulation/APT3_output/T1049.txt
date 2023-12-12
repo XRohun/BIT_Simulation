@@ -1,0 +1,370 @@
+===========================================================================
+Interface List
+  6...54 ab 3a 2c 4d f4 ......Realtek PCIe GBE Family Controller
+ 11...02 00 4c 4f 4f 50 ......Microsoft KM-TEST Loopback Adapter
+ 13...02 00 4c 4f 4f 50 ......Microsoft KM-TEST Loopback Adapter #2
+  4...aa a7 95 01 bb 1f ......Microsoft Wi-Fi Direct Virtual Adapter
+ 20...ba a7 95 01 bb 1f ......Microsoft Wi-Fi Direct Virtual Adapter #2
+ 15...00 09 0f fe 00 01 ......Fortinet Virtual Ethernet Adapter (NDIS 6.30)
+ 12...a8 a7 95 01 bb 1f ......Qualcomm Atheros QCA61x4A Wireless Network Adapter
+ 86...a8 a7 95 01 bb 20 ......Bluetooth Device (Personal Area Network)
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0  147.175.191.129  147.175.191.138     25
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+  147.175.191.128  255.255.255.192         On-link   147.175.191.138    281
+  147.175.191.138  255.255.255.255         On-link   147.175.191.138    281
+  147.175.191.191  255.255.255.255         On-link   147.175.191.138    281
+      169.254.0.0      255.255.0.0         On-link   169.254.102.113    281
+      169.254.0.0      255.255.0.0         On-link    169.254.73.135    281
+   169.254.73.135  255.255.255.255         On-link    169.254.73.135    281
+  169.254.102.113  255.255.255.255         On-link   169.254.102.113    281
+  169.254.255.255  255.255.255.255         On-link   169.254.102.113    281
+  169.254.255.255  255.255.255.255         On-link    169.254.73.135    281
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+        224.0.0.0        240.0.0.0         On-link   147.175.191.138    281
+        224.0.0.0        240.0.0.0         On-link   169.254.102.113    281
+        224.0.0.0        240.0.0.0         On-link    169.254.73.135    281
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+  255.255.255.255  255.255.255.255         On-link   147.175.191.138    281
+  255.255.255.255  255.255.255.255         On-link   169.254.102.113    281
+  255.255.255.255  255.255.255.255         On-link    169.254.73.135    281
+===========================================================================
+Persistent Routes:
+  None
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+  1    331 ::1/128                  On-link
+  6    281 fe80::/64                On-link
+ 11    281 fe80::/64                On-link
+ 13    281 fe80::/64                On-link
+ 13    281 fe80::48a3:bcc8:ca8d:278e/128
+                                    On-link
+  6    281 fe80::8b98:1e67:a1a4:24c9/128
+                                    On-link
+ 11    281 fe80::90b7:a26c:d46c:57ae/128
+                                    On-link
+  1    331 ff00::/8                 On-link
+  6    281 ff00::/8                 On-link
+ 11    281 ff00::/8                 On-link
+ 13    281 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+New connections will be remembered.
+
+There are no entries in the list.
+
+Interface Statistics
+
+                           Received            Sent
+
+Bytes                    4210433058      2077639262
+Unicast packets              520702        42255970
+Non-unicast packets           47677          695065
+Discards                       5173               0
+Errors                            0               0
+Unknown protocols                 0
+
+IPv4 Statistics
+
+  Packets Received                   = 19073733
+  Received Header Errors             = 0
+  Received Address Errors            = 4363
+  Datagrams Forwarded                = 2905675
+  Unknown Protocols Received         = 8
+  Received Packets Discarded         = 1950758
+  Received Packets Delivered         = 16783782
+  Output Requests                    = 6288793
+  Routing Discards                   = 0
+  Discarded Output Packets           = 1691
+  Output Packet No Route             = 463
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+IPv6 Statistics
+
+  Packets Received                   = 86631
+  Received Header Errors             = 0
+  Received Address Errors            = 849
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 31
+  Received Packets Delivered         = 142593
+  Output Requests                    = 83357
+  Routing Discards                   = 0
+  Discarded Output Packets           = 0
+  Output Packet No Route             = 0
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+ICMPv4 Statistics
+
+                            Received    Sent
+  Messages                  3195        3679      
+  Errors                    0           0         
+  Destination Unreachable   2938        1644      
+  Time Exceeded             208         0         
+  Parameter Problems        0           0         
+  Source Quenches           0           0         
+  Redirects                 0           0         
+  Echo Replies              49          0         
+  Echos                     0           2035      
+  Timestamps                0           0         
+  Timestamp Replies         0           0         
+  Address Masks             0           0         
+  Address Mask Replies      0           0         
+  Router Solicitations      0           0         
+  Router Advertisements     0           0         
+
+ICMPv6 Statistics
+
+                            Received    Sent
+  Messages                  151         263       
+  Errors                    0           0         
+  Destination Unreachable   0           24        
+  Packet Too Big            0           0         
+  Time Exceeded             0           0         
+  Parameter Problems        0           0         
+  Echos                     0           0         
+  Echo Replies              0           0         
+  MLD Queries               0           0         
+  MLD Reports               0           0         
+  MLD Dones                 0           0         
+  Router Solicitations      0           81        
+  Router Advertisements     0           0         
+  Neighbor Solicitations    65          66        
+  Neighbor Advertisements   86          92        
+  Redirects                 0           0         
+  Router Renumberings       0           0         
+
+TCP Statistics for IPv4
+
+  Active Opens                        = 32992
+  Passive Opens                       = 1865
+  Failed Connection Attempts          = 3837
+  Reset Connections                   = 4395
+  Current Connections                 = 28
+  Segments Received                   = 6462071
+  Segments Sent                       = 6168122
+  Segments Retransmitted              = 14488
+
+TCP Statistics for IPv6
+
+  Active Opens                        = 280
+  Passive Opens                       = 473
+  Failed Connection Attempts          = 852
+  Reset Connections                   = 70
+  Current Connections                 = 0
+  Segments Received                   = 99905
+  Segments Sent                       = 99363
+  Segments Retransmitted              = 1154
+
+UDP Statistics for IPv4
+
+  Datagrams Received    = 13809739
+  No Ports              = 41785
+  Receive Errors        = 0
+  Datagrams Sent        = 4456938
+
+UDP Statistics for IPv6
+
+  Datagrams Received    = 301167
+  No Ports              = 31
+  Receive Errors        = 0
+  Datagrams Sent        = 78100
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       272
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING       7836
+  TCP    0.0.0.0:5357           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:5432           0.0.0.0:0              LISTENING       8788
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       820
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING       696
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING       1528
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING       1404
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING       3268
+  TCP    0.0.0.0:49671          0.0.0.0:0              LISTENING       2984
+  TCP    0.0.0.0:49672          0.0.0.0:0              LISTENING       776
+  TCP    0.0.0.0:50637          0.0.0.0:0              LISTENING       33300
+  TCP    0.0.0.0:57621          0.0.0.0:0              LISTENING       33300
+  TCP    127.0.0.1:5354         0.0.0.0:0              LISTENING       4360
+  TCP    127.0.0.1:5354         127.0.0.1:49669        ESTABLISHED     4360
+  TCP    127.0.0.1:5354         127.0.0.1:49670        ESTABLISHED     4360
+  TCP    127.0.0.1:5939         0.0.0.0:0              LISTENING       4472
+  TCP    127.0.0.1:27015        0.0.0.0:0              LISTENING       4312
+  TCP    127.0.0.1:49669        127.0.0.1:5354         ESTABLISHED     4312
+  TCP    127.0.0.1:49670        127.0.0.1:5354         ESTABLISHED     4312
+  TCP    127.0.0.1:50998        127.0.0.1:50999        ESTABLISHED     47508
+  TCP    127.0.0.1:50999        127.0.0.1:50998        ESTABLISHED     47508
+  TCP    127.0.0.1:51000        127.0.0.1:51001        ESTABLISHED     50156
+  TCP    127.0.0.1:51001        127.0.0.1:51000        ESTABLISHED     50156
+  TCP    127.0.0.1:52829        0.0.0.0:0              LISTENING       75852
+  TCP    127.0.0.1:55310        0.0.0.0:0              LISTENING       48252
+  TCP    127.0.0.1:58995        127.0.0.1:65001        ESTABLISHED     4384
+  TCP    127.0.0.1:63342        0.0.0.0:0              LISTENING       86200
+  TCP    127.0.0.1:65001        0.0.0.0:0              LISTENING       4384
+  TCP    127.0.0.1:65001        127.0.0.1:58995        ESTABLISHED     4384
+  TCP    147.175.191.138:139    0.0.0.0:0              LISTENING       4
+  TCP    147.175.191.138:50638  20.199.120.85:443      ESTABLISHED     4392
+  TCP    147.175.191.138:50640  104.199.65.124:4070    ESTABLISHED     33300
+  TCP    147.175.191.138:50643  35.186.224.47:443      ESTABLISHED     33300
+  TCP    147.175.191.138:50663  20.199.120.85:443      ESTABLISHED     4392
+  TCP    147.175.191.138:50698  35.186.224.40:443      ESTABLISHED     262088
+  TCP    147.175.191.138:51010  34.117.65.55:443       ESTABLISHED     47508
+  TCP    147.175.191.138:51125  95.101.23.74:443       CLOSE_WAIT      85116
+  TCP    147.175.191.138:51126  95.101.23.74:443       CLOSE_WAIT      85116
+  TCP    147.175.191.138:51133  87.244.222.11:443      CLOSE_WAIT      85116
+  TCP    147.175.191.138:51134  192.229.221.95:80      CLOSE_WAIT      85116
+  TCP    147.175.191.138:51136  65.9.94.183:443        CLOSE_WAIT      85116
+  TCP    147.175.191.138:51137  65.9.94.200:80         CLOSE_WAIT      85116
+  TCP    147.175.191.138:51138  65.9.94.68:80          CLOSE_WAIT      85116
+  TCP    147.175.191.138:51139  65.9.94.127:80         CLOSE_WAIT      85116
+  TCP    147.175.191.138:51141  152.199.19.161:443     CLOSE_WAIT      85116
+  TCP    147.175.191.138:51153  142.251.36.138:443     TIME_WAIT       0
+  TCP    147.175.191.138:51154  54.93.156.138:80       CLOSE_WAIT      39712
+  TCP    147.175.191.138:51155  54.93.156.138:80       CLOSE_WAIT      39712
+  TCP    147.175.191.138:51156  142.251.36.142:80      ESTABLISHED     39712
+  TCP    169.254.73.135:139     0.0.0.0:0              LISTENING       4
+  TCP    169.254.102.113:139    0.0.0.0:0              LISTENING       4
+  TCP    [::]:135               [::]:0                 LISTENING       272
+  TCP    [::]:445               [::]:0                 LISTENING       4
+  TCP    [::]:5357              [::]:0                 LISTENING       4
+  TCP    [::]:5432              [::]:0                 LISTENING       8788
+  TCP    [::]:49664             [::]:0                 LISTENING       820
+  TCP    [::]:49665             [::]:0                 LISTENING       696
+  TCP    [::]:49666             [::]:0                 LISTENING       1528
+  TCP    [::]:49667             [::]:0                 LISTENING       1404
+  TCP    [::]:49668             [::]:0                 LISTENING       3268
+  TCP    [::]:49671             [::]:0                 LISTENING       2984
+  TCP    [::]:49672             [::]:0                 LISTENING       776
+  TCP    [::1]:42050            [::]:0                 LISTENING       156680
+  TCP    [::1]:49675            [::]:0                 LISTENING       11836
+  UDP    0.0.0.0:500            *:*                                    2944
+  UDP    0.0.0.0:1900           *:*                                    33300
+  UDP    0.0.0.0:1900           *:*                                    33300
+  UDP    0.0.0.0:1900           *:*                                    33300
+  UDP    0.0.0.0:3702           *:*                                    5024
+  UDP    0.0.0.0:3702           *:*                                    774936
+  UDP    0.0.0.0:3702           *:*                                    774936
+  UDP    0.0.0.0:3702           *:*                                    5024
+  UDP    0.0.0.0:4500           *:*                                    2944
+  UDP    0.0.0.0:5050           *:*                                    7836
+  UDP    0.0.0.0:5353           *:*                                    33300
+  UDP    0.0.0.0:5353           *:*                                    33300
+  UDP    0.0.0.0:5353           *:*                                    33300
+  UDP    0.0.0.0:5353           *:*                                    33300
+  UDP    0.0.0.0:5353           *:*                                    33300
+  UDP    0.0.0.0:5353           *:*                                    2628
+  UDP    0.0.0.0:5353           *:*                                    33300
+  UDP    0.0.0.0:5353           *:*                                    33300
+  UDP    0.0.0.0:5353           *:*                                    33300
+  UDP    0.0.0.0:5353           *:*                                    33300
+  UDP    0.0.0.0:5355           *:*                                    2628
+  UDP    0.0.0.0:53107          *:*                                    774936
+  UDP    0.0.0.0:54027          *:*                                    47508
+  UDP    0.0.0.0:54563          *:*                                    4360
+  UDP    0.0.0.0:56181          *:*                                    47508
+  UDP    0.0.0.0:56610          *:*                                    4472
+  UDP    0.0.0.0:56615          *:*                                    4384
+  UDP    0.0.0.0:57621          *:*                                    33300
+  UDP    0.0.0.0:59502          *:*                                    33300
+  UDP    0.0.0.0:59503          *:*                                    33300
+  UDP    0.0.0.0:59504          *:*                                    33300
+  UDP    0.0.0.0:62130          *:*                                    5024
+  UDP    0.0.0.0:63009          *:*                                    47508
+  UDP    0.0.0.0:63323          *:*                                    47508
+  UDP    0.0.0.0:64641          *:*                                    47508
+  UDP    127.0.0.1:1900         *:*                                    6056
+  UDP    127.0.0.1:10030        *:*                                    48252
+  UDP    127.0.0.1:44301        *:*                                    4328
+  UDP    127.0.0.1:52181        *:*                                    43332
+  UDP    127.0.0.1:54565        *:*                                    4312
+  UDP    127.0.0.1:54566        *:*                                    4312
+  UDP    127.0.0.1:54567        *:*                                    4272
+  UDP    127.0.0.1:60513        *:*                                    6056
+  UDP    147.175.191.138:137    *:*                                    4
+  UDP    147.175.191.138:138    *:*                                    4
+  UDP    147.175.191.138:1900   *:*                                    6056
+  UDP    147.175.191.138:2177   *:*                                    144048
+  UDP    147.175.191.138:5353   *:*                                    4384
+  UDP    147.175.191.138:5353   *:*                                    4360
+  UDP    147.175.191.138:58393  *:*                                    50156
+  UDP    147.175.191.138:58394  *:*                                    50156
+  UDP    147.175.191.138:58674  *:*                                    50156
+  UDP    147.175.191.138:58675  *:*                                    50156
+  UDP    147.175.191.138:60510  *:*                                    6056
+  UDP    169.254.73.135:137     *:*                                    4
+  UDP    169.254.73.135:138     *:*                                    4
+  UDP    169.254.73.135:1900    *:*                                    6056
+  UDP    169.254.73.135:2177    *:*                                    144048
+  UDP    169.254.73.135:5353    *:*                                    4472
+  UDP    169.254.73.135:5353    *:*                                    4360
+  UDP    169.254.73.135:5353    *:*                                    4384
+  UDP    169.254.73.135:60512   *:*                                    6056
+  UDP    169.254.102.113:137    *:*                                    4
+  UDP    169.254.102.113:138    *:*                                    4
+  UDP    169.254.102.113:1900   *:*                                    6056
+  UDP    169.254.102.113:2177   *:*                                    144048
+  UDP    169.254.102.113:5353   *:*                                    4360
+  UDP    169.254.102.113:5353   *:*                                    4472
+  UDP    169.254.102.113:5353   *:*                                    4384
+  UDP    169.254.102.113:60511  *:*                                    6056
+  UDP    [::]:500               *:*                                    2944
+  UDP    [::]:3702              *:*                                    5024
+  UDP    [::]:3702              *:*                                    774936
+  UDP    [::]:3702              *:*                                    5024
+  UDP    [::]:3702              *:*                                    774936
+  UDP    [::]:4500              *:*                                    2944
+  UDP    [::]:5353              *:*                                    33300
+  UDP    [::]:5353              *:*                                    33300
+  UDP    [::]:5353              *:*                                    33300
+  UDP    [::]:5353              *:*                                    33300
+  UDP    [::]:5353              *:*                                    33300
+  UDP    [::]:5353              *:*                                    2628
+  UDP    [::]:5353              *:*                                    33300
+  UDP    [::]:5355              *:*                                    2628
+  UDP    [::]:53108             *:*                                    774936
+  UDP    [::]:54564             *:*                                    4360
+  UDP    [::]:56611             *:*                                    4472
+  UDP    [::]:56616             *:*                                    4384
+  UDP    [::]:62131             *:*                                    5024
+  UDP    [::1]:1900             *:*                                    6056
+  UDP    [::1]:56609            *:*                                    8788
+  UDP    [::1]:60509            *:*                                    6056
+  UDP    [fe80::48a3:bcc8:ca8d:278e%13]:1900  *:*                                    6056
+  UDP    [fe80::48a3:bcc8:ca8d:278e%13]:2177  *:*                                    144048
+  UDP    [fe80::48a3:bcc8:ca8d:278e%13]:5353  *:*                                    4384
+  UDP    [fe80::48a3:bcc8:ca8d:278e%13]:5353  *:*                                    4472
+  UDP    [fe80::48a3:bcc8:ca8d:278e%13]:5353  *:*                                    4360
+  UDP    [fe80::48a3:bcc8:ca8d:278e%13]:60508  *:*                                    6056
+  UDP    [fe80::8b98:1e67:a1a4:24c9%6]:1900  *:*                                    6056
+  UDP    [fe80::8b98:1e67:a1a4:24c9%6]:2177  *:*                                    144048
+  UDP    [fe80::8b98:1e67:a1a4:24c9%6]:60506  *:*                                    6056
+  UDP    [fe80::90b7:a26c:d46c:57ae%11]:1900  *:*                                    6056
+  UDP    [fe80::90b7:a26c:d46c:57ae%11]:2177  *:*                                    144048
+  UDP    [fe80::90b7:a26c:d46c:57ae%11]:5353  *:*                                    4384
+  UDP    [fe80::90b7:a26c:d46c:57ae%11]:5353  *:*                                    4360
+  UDP    [fe80::90b7:a26c:d46c:57ae%11]:5353  *:*                                    4472
+  UDP    [fe80::90b7:a26c:d46c:57ae%11]:60507  *:*                                    6056

@@ -1,0 +1,52 @@
+name: T1083
+count: 2
+defaultoutputfile: T1083.txt
+description: File and Directory Discovery
+options:
+  attack1:
+    Command2:
+      type: CLI
+      write: dir /s "c:\Documents and Settings"
+      description: discover document and settings including subdirectories
+      outfile: default
+    Command3:
+      type: CLI
+      write: dir /s "c:\Program Files\"
+      description: discover program files 
+      outfile: default
+    Command4:
+      type: CLI
+      write: dir "%systemdrive%\Users\*.*"
+      description: discover users
+      outfile: default
+    Command5:
+      type: CLI
+      write: dir "%userprofile%\AppData\Roaming\Microsoft\Windows\Recent\*.*"
+      description: discover recent files
+      outfile: default
+    Command6:
+      type: CLI
+      write: dir "%userprofile%\Desktop\*.*"
+      description: discover desktop files
+      outfile: default
+    Command7:
+      type: CLI
+      write: tree /F
+      description: Output tree of files and folders
+      outfile: default
+  attack2:
+    Command1:
+      type: PS
+      write: ls -recurse
+      description: recursive LS print to file
+      outfile: default
+    Command2:
+      type: PS
+      write: get-childitem -recurse
+      description: recursive get-childitem print to file
+      outfile: default
+    Command3:
+      type: PS
+      write: gci -recurse
+      description: recursive gci print to file
+      outfile: default

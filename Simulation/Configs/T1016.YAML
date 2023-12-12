@@ -1,0 +1,64 @@
+name: T1016
+count: 4
+defaultoutputfile: T1016.txt
+description: System Network Configuration Discovery
+options:
+  attack1:
+    Command1:
+      type: CLI
+      write: ipconfig /all 
+      description: System Network Configuration Discovery
+      outfile: default
+    Command2:
+      type: CLI
+      write: netsh interface show interface
+      description: enumerate domain groups
+      outfile: default
+    Command3:
+      type: CLI
+      write: arp -a
+      description: System Network Configuration Discovery
+      outfile: default
+    Command4:
+      type: CLI
+      write: nbtstat -n
+      description: System Network Configuration Discovery
+      outfile: default
+    Command5:
+      type: CLI
+      write: net config 
+      description: System Network Configuration Discovery
+      outfile: default  
+  attack2:
+    Command1:
+      type: CLI
+      write: netsh advfirewall firewall show rule name=all
+      description: List windows firewall rules
+      outfile: default
+  attack3:
+    Command1:
+      type: CLI
+      write: ipconfig /all
+      description: Trickbot - System Network Configuration Discovery
+      outfile: default
+    Command2:
+      type: CLI
+      write: net config workstation
+      description: Trickbot - System Network Configuration Discovery
+      outfile: default
+    Command3:
+      type: CLI
+      write: net view /all /domain
+      description: Trickbot - System Network Configuration Discovery
+      outfile: default
+    Command4:
+      type: CLI
+      write: nltest /domain_trusts
+      description: Trickbot - System Network Configuration Discovery
+      outfile: default
+  attack4:
+    Command1:
+      type: CLI
+      write: nslookup -querytype=ALL -timeout=12 _ldap._tcp.dc._msdcs.$env:USERDNSDOMAIN #find domain controller
+      description: DNS query to find domain controller
+      outfile: default

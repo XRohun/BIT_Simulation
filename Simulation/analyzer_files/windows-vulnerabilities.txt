@@ -1,0 +1,130 @@
+c:\$recycle.bin\s-1-5-18\desktop.ini|1|Recycle bin configuration file, low risk of information leak.
+c:\$sysreset\appxlogs\restoredownlevelalluserstore.log|2|Log file for system reset, moderate risk.
+c:\$sysreset\logs\diagerr.xml|3|Diagnostic error log, potential sensitive system information.
+c:\apache\logs\error.log|3|Apache error log, could reveal server vulnerabilities.
+c:\apache\logs\error_log|3|Duplicate Apache error log, similar risk of exposing errors.
+c:\apache\php\php.ini|5|PHP configuration file, high risk if exposed with server settings.
+c:\boot.ini|5|System boot configuration, critical for system integrity and security.
+c:\documents and settings\administrator\desktop\desktop.ini|2|Desktop configuration for admin, moderate risk.
+c:\documents and settings\administrator\ntuser.dat|4|User profile settings, high risk if exposed.
+c:\documents and settings\administrator\ntuser.ini|3|User configuration file, medium risk for privacy.
+c:\home2\bin\stable\apache\php.ini|5|PHP configuration in home directory, high risk for server security.
+c:\home\bin\stable\apache\php.ini|5|PHP config in user directory, critical risk for server settings exposure.
+c:\program files\apache group\apache\logs\access.log|3|Apache server access log, high risk due to potential sensitive access details.
+c:\programdata\windows app certification kit\ko-kr\wslk_strings.xml|1|Localization strings for app certification kit, low risk.
+c:\program files\apache group\apache\logs\error.log|3|Apache server error log, could contain valuable information for attackers.
+c:\program files\apache software foundation\tomcat 8.0\license|3|License file for Tomcat server, could indicate software versions and potential vulnerabilities.
+c:\program files\apache software foundation\tomcat 8.0\release-notes|3|Release notes for Tomcat server, could reveal information about software versions and changes.
+c:\program files\apache software foundation\tomcat 8.5\license|3|License file for Tomcat server, could indicate software versions and potential vulnerabilities.
+c:\program files\apache software foundation\tomcat 8.5\release-notes|3|Release notes for Tomcat server, could reveal information about software versions and changes.
+c:\program files\apache software foundation\tomcat 9.0\license|3|License file for Tomcat server, could indicate software versions and potential vulnerabilities.
+c:\program files\apache software foundation\tomcat 9.0\release-notes|3|Release notes for Tomcat server, could reveal information about software versions and changes.
+c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\3.1.8\ref\netcoreapp3.1\microsoft.aspnetcore.cryptography.internal.xml|3|Internal Cryptography configuration, high risk if contains sensitive cryptographic information.
+c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\3.1.8\ref\netcoreapp3.1\microsoft.aspnetcore.cryptography.keyderivation.xml|3|Key derivation configuration, high risk due to cryptographic information.
+c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\3.1.8\ref\netcoreapp3.1\microsoft.aspnetcore.dataprotection.xml|4|Data protection configuration, high risk if it reveals sensitive data protection mechanisms.
+c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\3.1.8\ref\netcoreapp3.1\microsoft.aspnetcore.diagnostics.xml|3|Diagnostics configuration, high risk due to potential sensitive diagnostic information.
+c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\3.1.8\ref\netcoreapp3.1\microsoft.aspnetcore.hostfiltering.xml|3|Host filtering settings, high risk if it details sensitive hosting configuration.
+c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\3.1.8\ref\netcoreapp3.1\microsoft.aspnetcore.hosting.xml|3|General hosting configuration, high risk due to sensitive hosting details.
+c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\3.1.8\ref\netcoreapp3.1\microsoft.aspnetcore.http.xml|3|HTTP protocol configuration, high risk if it contains sensitive information about HTTP settings.
+c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\3.1.8\ref\netcoreapp3.1\microsoft.aspnetcore.mvc.xml|3|MVC configuration, high risk if it reveals sensitive MVC framework details.
+c:\program files\microsoft sql server\130\localdb\binn\sqlservr.exe.config|4|SQL Server configuration, high risk due to potential exposure of database server settings.
+c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\3.1.8\ref\netcoreapp3.1\microsoft.aspnetcore.razor.xml|3|Razor configuration, high risk due to potential exposure of web application views and templates.
+c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\3.1.8\ref\netcoreapp3.1\microsoft.aspnetcore.server.kestrel.xml|4|Kestrel server configuration, high risk due to critical server settings.
+c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\3.1.8\ref\netcoreapp3.1\microsoft.aspnetcore.websockets.xml|3|WebSockets configuration, high risk if it exposes WebSocket protocol settings.
+c:\program files\dotnet\packs\microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1\system.runtime.xml|3|Core runtime library for .NET, high risk due to fundamental system operations.
+c:\program files\dotnet\packs\microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1\system.security.claims.xml|3|Manages user claims, high risk due to sensitive user identity information.
+c:\program files\dotnet\packs\microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1\system.security.cryptography.algorithms.xml|5|Cryptographic algorithms, high risk due to sensitive cryptographic operations.
+c:\program files\dotnet\packs\microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1\system.security.cryptography.csp.xml|4|Cryptographic service providers, high risk due to cryptographic service configurations.
+c:\program files\dotnet\packs\microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1\system.security.cryptography.encoding.xml|4|Cryptographic encoding, high risk due to encoding mechanisms for cryptographic operations.
+c:\program files\dotnet\packs\microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1\system.security.cryptography.primitives.xml|4|Cryptographic primitives, high risk due to basic cryptographic functions.
+c:\program files\dotnet\packs\microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1\system.security.cryptography.x509certificates.xml|5|Management of X.509 certificates, high risk due to handling of certificate data.
+c:\program files\dotnet\packs\microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1\system.security.principal.xml|3|Principal security namespace, high risk due to user and role security information.
+c:\program files\icewarp\html\admin\client\objects\obj_certificates_server_wizard.xml|3|Certificate server wizard configuration, high risk due to involvement in security certificate setup.
+c:\program files\icewarp\html\admin\client\objects\obj_certificates_server.xml|4|Certificate server configuration, high risk due to direct involvement with server security certificates.
+c:\program files\icewarp\html\admin\client\objects\obj_certificates.xml|4|General certificates configuration, high risk due to handling of security certificates.
+c:\program files\icewarp\html\admin\client\objects\obj_connection.xml|3|Connection settings, high risk if it includes sensitive connection details or credentials.
+c:\program files\icewarp\html\admin\client\objects\obj_consoledialog.xml|3|Console dialog object, high risk due to potential exposure of administrative commands or sensitive server operations.
+c:\program files\icewarp\html\admin\client\objects\obj_content_rules.xml|3|Content rules configuration, high risk due to potential impact on email filtering and security settings.
+c:\program files\icewarp\html\admin\client\objects\obj_dashboard_servicesgroup.xml|3|Dashboard services group configuration, high risk due to potential exposure of critical service settings.
+c:\program files\icewarp\html\admin\client\objects\obj_dashboard.xml|3|Dashboard configuration, high risk if it exposes sensitive server statistics or operational data.
+c:\program files\icewarp\html\admin\client\objects\obj_devicedetail.xml|3|Device details configuration, high risk due to potential exposure of sensitive device information.
+c:\program files\icewarp\html\admin\client\objects\obj_deviceinfo.xml|3|Device information configuration, high risk if it includes sensitive details about user devices.
+c:\program files\icewarp\html\admin\client\objects\obj_devicesync.xml|3|Device synchronization settings, high risk due to potential configuration details for synchronizing user devices.
+c:\program files\icewarp\html\admin\client\objects\obj_domaindetail.xml|4|Domain detail configuration, high risk due to potential exposure of sensitive domain-level settings.
+c:\program files\icewarp\html\admin\client\objects\obj_domainlimits.xml|3|Domain limits configuration, high risk due to potential exposure of critical operational limits for domains.
+c:\program files\icewarp\html\admin\client\objects\obj_domainsettings_dkim.xml|4|Domain DKIM settings, high risk due to involvement in email authentication and security.
+c:\program files\icewarp\html\admin\client\objects\obj_domainsettings_dnsvalidation.xml|4|Domain DNS validation settings, high risk due to involvement in domain name system security validations.
+c:\program files\icewarp\html\admin\client\objects\obj_domainsettings.xml|4|General domain settings, high risk due to potential exposure of critical domain configuration.
+c:\program files\icewarp\html\admin\client\objects\obj_groupinfo.xml|3|Group information configuration, high risk if it includes sensitive details about user groups.
+c:\program files\icewarp\html\admin\client\objects\obj_grouplimits.xml|3|Group limits configuration, high risk due to potential exposure of operational limits for user groups.
+c:\program files\microsoft sdks\azure\.net sdk\v2.9\bin\runtimes\base\x64\wahostbootstrapper.exe.config|3|Azure SDK runtime configuration, moderate risk due to handling of cloud service runtime settings.
+c:\program files\icewarp\html\admin\client\objects\obj_groupmembers.xml|3|Group members configuration, high risk due to potential exposure of user membership in groups.
+c:\program files\icewarp\html\admin\client\objects\obj_mailinglistinfo.xml|3|Mailing list information, high risk due to potential exposure of sensitive mailing list details.
+c:\program files\icewarp\html\admin\client\objects\obj_mailinglistmembers.xml|3|Mailing list members configuration, high risk due to exposure of mailing list membership details.
+c:\program files\icewarp\html\admin\client\objects\obj_management.xml|4|Server management configuration, high risk due to potential control over critical server operations.
+c:\program files\icewarp\html\admin\client\objects\obj_message.xml|3|Message configuration, high risk if it involves the handling of email messages or sensitive content.
+c:\program files\icewarp\html\admin\client\objects\obj_permissions.xml|4|Permissions configuration, high risk due to potential exposure of user permissions and access controls.
+c:\program files\icewarp\html\admin\client\objects\obj_policies.xml|4|Policy configuration, high risk due to potential impact on server operational policies.
+c:\program files\icewarp\html\admin\client\objects\obj_rules.xml|4|Rules configuration, high risk due to potential impact on email filtering and operational rules.
+c:\program files\icewarp\html\admin\client\objects\obj_server_settings.xml|5|Server settings configuration, highest risk due to direct impact on overall server configuration and security.
+c:\program files\icewarp\html\admin\client\objects\obj_spamqueues.xml|3|Spam queue configuration, high risk due to involvement in email filtering and spam management.
+c:\program files\icewarp\html\admin\client\objects\obj_subscription.xml|3|Subscription settings, high risk if it includes details on service subscriptions or user billing information.
+c:\program files\icewarp\html\admin\client\objects\obj_upload.xml|3|File upload object, high risk due to potential for uploading malicious files.
+c:\program files\icewarp\html\admin\client\objects\obj_userlist.xml|3|User list object, high risk due to potential exposure of user information.
+c:\program files\icewarp\html\admin\client\objects\obj_whitelabeling.xml|3|White labeling settings, moderate risk related to customization and branding which could affect phishing susceptibility.
+c:\program files\icewarp\html\admin\client\skins\default\login\scripts\rsa_license.txt|3|RSA license information, moderate risk if it contains sensitive licensing or configuration details.
+c:\program files\icewarp\html\admin\client\skins\default\skin.xml|3|Skin configuration for client, moderate risk related to UI customization that could impact user interaction and security.
+c:\program files\icewarp\html\admin\language\en\data.xml|3|Language data file, moderate risk if it includes localization specifics that can be manipulated.
+c:\program files\icewarp\html\admin\language\en\fonts.xml|3|Font configuration, moderate risk if it includes custom fonts that could be exploited.
+c:\program files\icewarp\html\admin\language\en\lang.xml|3|Language file, moderate risk if it includes language specifics that can be manipulated for phishing.
+c:\program files\icewarp\html\webmail\client\languages\en\data.xml|3|Language data file for webmail client, moderate risk due to localization that can be manipulated.
+c:\program files\icewarp\html\webmail\client\languages\en\help.xml|3|Help file for webmail client, moderate risk due to potential for misleading information.
+c:\program files\icewarp\html\webmail\client\objects\frm_certificate.xml|4|Certificate management form, high risk due to handling of digital certificates.
+c:\program files\icewarp\html\webmail\client\objects\frm_chat.xml|3|Chat form in webmail, moderate risk if it handles sensitive user communications.
+c:\program files\icewarp\html\webmail\client\objects\frm_compose.xml|3|Email composition form, moderate risk due to potential manipulation in email creation.
+c:\program files\icewarp\html\webmail\client\objects\frm_devicedetail.xml|3|Device detail form, moderate risk due to potential exposure of device information.
+c:\program files\icewarp\html\webmail\client\objects\frm_devices.xml|3|Devices management form, moderate risk due to handling of user device information.
+c:\program files\icewarp\html\webmail\client\objects\frm_domainsettings.xml|4|Domain settings form, high risk due to potential manipulation of domain-level settings.
+c:\program files\icewarp\html\webmail\client\objects\frm_groupchat_invite.xml|3|Group chat invite form, moderate risk if it handles sensitive user communications.
+c:\program files\icewarp\html\webmail\client\objects\frm_mail.xml|3|Mail form in webmail, moderate risk due to potential manipulation in email viewing and handling.
+c:\program files\icewarp\html\webmail\client\objects\frm_mail_print.xml|3|Mail print form, moderate risk due to handling of email content for printing.
+c:\program files\icewarp\html\webmail\client\objects\frm_management.xml|4|Management form in webmail, high risk due to potential control over critical user or server operations.
+c:\program files\icewarp\html\webmail\client\objects\frm_permissions.xml|4|Permissions form, high risk due to handling of user permissions and access controls.
+c:\program files\icewarp\html\webmail\client\objects\frm_public_url.xml|3|Public URL form, moderate risk due to generation of public links which could be sensitive.
+c:\program files\icewarp\html\webmail\client\objects\frm_reminder.xml|3|Reminder form, moderate risk if it handles sensitive reminders or notifications.
+c:\program files\icewarp\html\webmail\client\objects\frm_rule.xml|4|Rules configuration form, high risk due to potential impact on email filtering and operational rules.
+c:\program files\icewarp\html\webmail\client\objects\frm_server_settings.xml|5|Server settings form, highest risk due to direct impact on overall server configuration and security.
+c:\program files\icewarp\html\webmail\client\objects\frm_settings_admin.xml|4|Admin settings form, high risk due to potential control over critical administrative settings.
+c:\program files\icewarp\html\webmail\client\objects\frm_sharing.xml|3|Sharing settings form, moderate risk due to handling of file or folder sharing settings.
+c:\program files\icewarp\html\webmail\client\objects\frm_verify.xml|4|Verification form, high risk due to involvement in user authentication and verification processes.
+c:\program files\icewarp\html\webmail\client\objects\obj_upload.xml|3|File upload object, high risk due to potential for uploading malicious files.
+c:\program files\icewarp\html\webmail\client\objects\obj_chat.xml|3|Chat form in webmail, moderate risk if it handles sensitive user communications.
+c:\program files\icewarp\html\webmail\client\objects\obj_calendar.xml|3|Calendar object, moderate risk due to handling of user calendar data.
+c:\program files\icewarp\html\webmail\client\objects\obj_connection.xml|3|Connection settings object, moderate risk due to potential exposure of connection configurations.
+c:\program files\icewarp\html\webmail\client\objects\obj_contact.xml|3|Contact object, moderate risk due to handling of user contact information.
+c:\program files\icewarp\html\webmail\client\objects\obj_datagrid.xml|3|Data grid object, moderate risk due to handling of structured data which could contain sensitive information.
+c:\program files\icewarp\html\webmail\client\objects\obj_frame.xml|3|Frame object, moderate risk due to its role in structuring user interface which can impact user interaction.
+c:\program files\icewarp\html\webmail\client\objects\obj_freebusy.xml|3|Free\busy schedule object, moderate risk due to handling of user availability data.
+c:\program files\icewarp\html\webmail\client\objects\obj_input_email.xml|3|Email input object, moderate risk due to potential for phishing or malicious content.
+c:\program files\icewarp\html\webmail\client\objects\obj_mailview.xml|3|Mail view object, moderate risk due to potential manipulation in email viewing.
+c:\program files\icewarp\html\webmail\client\objects\obj_password.xml|4|Password field object, high risk due to handling of sensitive password data.
+c:\program files\icewarp\html\webmail\client\objects\obj_reminder.xml|3|Reminder object, moderate risk if it handles sensitive reminders or notifications.
+c:\program files\icewarp\html\webmail\client\objects\obj_sharing.xml|3|Sharing settings object, moderate risk due to handling of file or folder sharing settings.
+c:\program files\icewarp\html\webmail\client\objects\obj_upload_mail.xml|3|Mail upload object, moderate risk due to potential for uploading email-related data.
+c:\program files\icewarp\html\webmail\language\en\data.xml|3|English language data file, moderate risk if it includes localization specifics that can be manipulated.
+c:\program files\icewarp\html\webmail\language\en\lang.xml|3|English language file, moderate risk if it includes language specifics that can be manipulated for phishing.
+c:\program files\icewarp\kaspersky\bin\bases\core\kdbc-i386-1313g.xml|3|Kaspersky antivirus core database, high risk due to critical importance for antivirus operations.
+c:\program files\icewarp\kaspersky\bin\bases\core\uds-1313g.xml|3|Kaspersky antivirus update data, high risk due to potential impact on antivirus updates.
+c:\program files\mysql\data\mysql-bin.log|3|MySQL binary log, high risk due to potential exposure of database transactions.
+c:\program files\mysql\my.cnf|3|MySQL configuration file, high risk due to potential exposure of database configurations.
+c:\program files\mysql\my.ini|3|MySQL initialization file, high risk due to potential exposure of sensitive settings.
+c:\program files\python38\lib\site-packages\pip\_vendor\vendor.txt|3|Python pip vendor list, moderate risk if it includes third-party dependencies that could be targeted.
+c:\program files\python38\tools\pynche\html40colors.txt|3|Python tool for color picker, moderate risk if it includes customizable interface elements.
+c:\program files\python38\tools\pynche\webcolors.txt|3|Python tool for web colors, moderate risk if it includes customizable interface elements.
+c:\program files\microsoft sql server\130\localdb\binn\sqlservr.exe.config|4|SQL Server configuration, high risk due to potential exposure of database server settings.
+c:\program files\microsoft sql server\client sdk\odbc\170\tools\binn\resources\1033\license_sqlcmd.txt|3|SQL Server command line tool license, moderate risk if it contains sensitive licensing information.
+c:\program files\microsoft sdks\azure\emulator\devfabric\devfc.exe.config|3|Azure SDK emulator configuration, moderate risk due to potential for configuration manipulation.
+c:\program files\microsoft sdks\azure\.net sdk\v2.9\bin\csencrypt.exe.config|3|Azure SDK encryption tool configuration, moderate risk due to handling of encryption settings.
+c:\program files\microsoft sdks\azure\.net sdk\v2.9\bin\runtimes\base\x64\wahostbootstrapper.exe.config|3|Azure SDK runtime configuration, moderate risk due to handling of cloud service runtime settings.
+c:\program files\tomcat\license|3|Apache Tomcat license file, moderate risk if it contains licensing terms that could be exploited.
+c:\program files\tomcat\release-notes|3|Apache Tomcat release notes, moderate risk if it includes sensitive version or configuration details.
